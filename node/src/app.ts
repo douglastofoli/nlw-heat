@@ -19,7 +19,7 @@ const io = new Server(serverHttp, {
 });
 
 io.on("connection", (socket) => {
-  console.log(`Usuário conectado no socker ${socket.id}`);
+  console.log(`Usuário conectado no socket ${socket.id}`);
 });
 
 app.use(router);
